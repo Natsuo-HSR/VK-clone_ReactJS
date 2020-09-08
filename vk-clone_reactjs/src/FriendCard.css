@@ -1,0 +1,33 @@
+.friendCard {
+    height: 34px;
+    padding: 8px 10px;
+    display: flex;
+    cursor: pointer;
+}
+
+.friendCard__description {
+    display: flex;
+    flex-direction: column;
+    padding-left: 8px;
+}
+
+.icon {
+    font-size: 34px !important;
+    border-radius: 50%;
+    overflow: hidden;
+    height: 34px;
+    width: 34px;
+}
+
+.name {
+    color: #2a5885;
+    line-height: 17px;
+    font-weight: 700;
+}
+
+.status {
+    color: #939393;
+    font-size: 11.5px;
+    font-weight: 400;
+}
+

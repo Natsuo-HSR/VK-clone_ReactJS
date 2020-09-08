@@ -1,0 +1,33 @@
+.sideBar {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.sideBar__container {
+    margin-left: 15px;
+    margin-top: 42px;
+    padding: 15px 0 10px;
+}
+
+.sideBar__row {
+    display: flex;
+    /* align-items: center; */
+}
+
+.sideBar__label {
+    color: #2a5885;
+    cursor: pointer;
+    height: 28px;
+    line-height: 27px;
+    font-size: 12.5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: 500;
+}
+
+.sideBar__icon {
+    color: #2a5885;
+    font-size: 25px !important;
+    padding-right: 10px;
+    opacity: .75;
+}
